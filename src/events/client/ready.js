@@ -9,7 +9,7 @@ module.exports = {
     console.log(`${client.user.tag} is ready!`);
 
     client.user.setActivity({
-      name: "Veracity RP",
+      name: "Veracity Roleplay",
       type: ActivityType.Watching,
     });
   },
