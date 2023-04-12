@@ -5,7 +5,7 @@ module.exports = {
     .setName("uptime")
     .setDescription("📈 Shows you the uptime of the bot."),
 
-  async execute(interaction, client, member) {
+  async execute(interaction, client) {
     const days = Math.floor(client.uptime / 86400000);
     const hours = Math.floor(client.uptime / 3600000) % 24;
     const minutes = Math.floor(client.uptime / 60000) % 60;

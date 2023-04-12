@@ -11,7 +11,7 @@ module.exports = {
     const icon = user.displayAvatarURL();
 
     const leaveEmbed = new EmbedBuilder()
-      .setTitle("**Nouveau membre**")
+      .setTitle("**Depart**")
       .setDescription(leaveMessage)
       .setAuthor({ name: tag, iconURL: icon })
       .setColor("Red")
