@@ -7,7 +7,7 @@ module.exports = {
     const { user, guild } = member;
     const welcomeChannel =
       member.guild.channels.cache.get("738099614238113865");
-    const welcomeMessage = `${user} a rejoint le serveur`;
+    const welcomeMessage = `${user} a rejoint le serveur.`;
     const tag = user.tag;
     const icon = user.displayAvatarURL();
 
