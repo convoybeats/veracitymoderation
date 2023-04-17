@@ -52,7 +52,7 @@ module.exports = {
         res.setDescription(
           `Succesfully deleted **${messages.size}** messages from ${target}.`
         );
-        interaction.reply({ embeds: [res], ephermeral: true });
+        interaction.reply({ embeds: [res], ephemeral: true });
       });
     } else {
       await channel.bulkDelete(amount, true).then((messages) => {
@@ -65,7 +65,7 @@ module.exports = {
             iconURL:
               "https://cdn.discordapp.com/attachments/738117166649573499/1083783904080711790/V_orange_png.png",
           });
-        interaction.reply({ embeds: [res], ephermeral: true });
+        interaction.reply({ embeds: [res], ephemeral: true });
       });
     }
   },
